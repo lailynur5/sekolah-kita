@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sekolah | SMAN 1 Harapan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-blue-900 text-white p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">SMAN 1 HARAPAN</h1>
+            
+            <button id="menu-btn" class="block md:hidden focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+            <ul id="menu" class="hidden md:flex space-x-6 font-medium">
+                <li><a href="#home" class="hover:text-yellow-400 transition">Beranda</a></li>
+                <li><a href="#about" class="hover:text-yellow-400 transition">Tentang</a></li>
+                <li><a href="#fasilitas" class="hover:text-yellow-400 transition">Fasilitas</a></li>
+                <li><a href="#kontak" class="hover:text-yellow-400 transition">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-bg text-white py-32 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Masa Depan Cerah Dimulai Di Sini</h2>
+            <p class="text-lg opacity-90 mb-8">Unggul dalam Prestasi, Santun dalam Berperilaku.</p>
+            <a href="#about" class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-8 rounded-full transition transform hover:scale-105 inline-block">Pelajari Lebih Lanjut</a>
+        </div>
+    </header>
+
+    <section id="about" class="container mx-auto py-20 px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="rounded-xl overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&w=800&q=80" alt="Gedung Sekolah">
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-blue-900 mb-6 border-l-8 border-yellow-500 pl-4">Visi & Misi</h3>
+                <p class="mb-4 leading-relaxed text-gray-600">Menjadi sekolah model dalam pengembangan IPTEK dan IMTAQ di tingkat Nasional.</p>
+                <ul class="space-y-3">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i> <span>Menerapkan kurikulum berbasis digital.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i> <span>Menciptakan lingkungan sekolah yang hijau dan asri.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="fasilitas" class="bg-blue-50 py-20">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-16">Fasilitas Sekolah</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card bg-white p-8 rounded-2xl shadow-sm text-center">
+                    <i class="fas fa-laptop-code text-5xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Lab Komputer</h4>
+                    <p class="text-gray-500">Akses internet 100Mbps untuk mendukung riset siswa.</p>
+                </div>
+                <div class="card bg-white p-8 rounded-2xl shadow-sm text-center">
+                    <i class="fas fa-microscope text-5xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Lab Sains</h4>
+                    <p class="text-gray-500">Peralatan praktikum modern sesuai standar nasional.</p>
+                </div>
+                <div class="card bg-white p-8 rounded-2xl shadow-sm text-center">
+                    <i class="fas fa-basketball-ball text-5xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Gelanggang Olahraga</h4>
+                    <p class="text-gray-500">Lapangan basket, voli, dan futsal indoor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-6">Hubungi Kami</h2>
+            <p class="mb-4 text-gray-300">Jl. Pendidikan No. 123, Jakarta Selatan</p>
+            <div class="flex justify-center space-x-6 text-2xl mb-8">
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="text-sm opacity-50">&copy; 2025 SMAN 1 Harapan. Created for GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+  
